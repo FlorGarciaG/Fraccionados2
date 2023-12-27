@@ -1,0 +1,7 @@
+Administrador:
+Name: flor
+password: 1234Flor
+
+Usuario:
+Name: Massiel
+password: 1234Mass
