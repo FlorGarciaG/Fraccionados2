@@ -1,0 +1,121 @@
+
+.principal {
+    background: url('/imagen/nivel1.jpg') lightgray 100% / cover no-repeat;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+    color: #000000;
+    font-family: Times;
+
+}
+.h1 {
+    margin: 0; 
+    padding: 5px; 
+    color: white;
+}
+
+.a {
+    margin:0; 
+    text-align: center; 
+    text-decoration: none;
+    display: inline-block;
+    color: #000000;
+    width: 120px;
+    height: 35px;
+    background: #ffb854;
+    justify-content:center;
+    cursor: pointer;
+    margin: 5px;
+}
+
+.customCard {
+    background-color: #FFF4E1;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    width: 25rem;
+    border-radius: 10px;
+    /* display: flex;
+    flex-direction: column;
+    align-items: center; */
+}
+
+.lineDivider {
+    border: 1px solid #FFC37C;
+    margin: 10px 0;
+    width: 100%;
+}
+
+.cardHead {
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;
+    margin: 0%;
+    padding: 0px 15px;
+}
+.arrowButton {
+    color: #ffb854;
+    background: none;
+    border: none;
+    font-size: 24px;
+    cursor: pointer;
+    padding: 0;
+}
+.cardBody{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+.problema {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 10px 0; 
+}
+
+.problema1, .problema2 {
+    text-align: center; 
+    margin: 0 10px; 
+}
+
+.operacion {
+    font-size: 24px;
+    margin: 0 10px;
+}
+    
+.cardFooter{
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;
+    margin: 0%;
+    padding: 5px 15px;
+}
+.hr{
+    border: 1px solid #000000;
+    width: 30%;
+}
+
+.btnSeparate {
+    margin-top: 10px;
+    background-color: #9DDEE2;
+    color: #000000;
+    width: 100px;
+    height: 30px;
+    border-radius: 10px;
+    background: #9DDEE2;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    border: none;
+    cursor: pointer;
+}
+
+.smallInput {
+    width: 60px;
+    background-color: white;
+    border: 1px solid gray;
+    border-radius: 2px;
+    margin: 5px;
+    color: #000000;
+}

@@ -1,0 +1,86 @@
+.container {
+    background-color: #FAFFE6;
+    padding: 20px;
+    text-align: center;
+    font-family: Times;
+  }
+  .h1 {
+    display: flex;
+    justify-content: center;
+    font-weight: bold;
+    color: black;
+    font-family: italic;
+  }
+  
+  .problemTable {
+    width: 80%;
+    margin: auto;
+    margin-top: 20px;
+    border-collapse: collapse;
+  }
+  
+  .problemTable th,
+  .problemTable td {
+    border: 2px solid #4CAF50; 
+    padding: 12px;
+    text-align: center;
+    color: black;
+  }
+  
+  .problemTable th {
+    background-color: #f2f2f2;
+  }
+  
+  .deleteButton {
+    background-color: #ff6961;
+    color: white;
+    border: none;
+    padding: 10px 15px; 
+    cursor: pointer;
+    border-radius: 4px;
+  }
+  
+  .deleteButton:hover {
+    background-color: #cc0000;
+  }
+
+  .editButton {
+    background-color: #6b61ff;
+    color: white;
+    border: none;
+    padding: 10px 15px; 
+    cursor: pointer;
+    border-radius: 4px;
+    margin-right: 5px;
+  }
+  
+  .editButton:hover {
+    background-color: #4400cc;
+  }
+
+  .editButton:disabled{
+    visibility: hidden;
+  }
+
+  .buttonContainer {
+    display: flex;
+    align-items: center;
+  }
+
+@media screen and (max-width: 900px) {
+  .problemTable {
+    width: 100%;
+    overflow-x: auto; 
+  }
+
+  .problemTable th,
+  .problemTable td {
+    padding: 4px;
+    font-size: 9px;
+  }
+
+  .deleteButton, .editButton{
+    padding: 6px 10px; 
+    font-size: 10px;
+  }
+}
